@@ -21,7 +21,7 @@ export default function WeatherApp() {
   return (
     <Box sx={{ textAlign: "center", mt: 4 }}>
       <div>
-        <h2>Weather App By Pratik</h2>
+        <h2>🌤️ WeatherDesk</h2>
         <div className="container">
           <SearchBox updateInfo={updateInfo} />
           <br />

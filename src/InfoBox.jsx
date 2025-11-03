@@ -14,7 +14,6 @@ export default function InfoBox({ info }) {
 
   return (
     <div>
-      <h2>Weather Info</h2>
       <div className="box">
         <Card
           sx={{
