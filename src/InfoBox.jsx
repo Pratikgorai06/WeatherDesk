@@ -7,14 +7,10 @@ import AcUnitIcon from "@mui/icons-material/AcUnit";
 import WbSunnyIcon from "@mui/icons-material/WbSunny";
 
 export default function InfoBox({ info }) {
-  const INITIAL_URL = "https://cdn-icons-png.flaticon.com/512/7133/7133364.png";
-
-  const HOT_URL =
-    "https://www.shutterstock.com/image-vector/summer-theme-image-2-vector-600w-81370717.jpg";
-  const COLD_URL =
-    "https://thumbs.dreamstime.com/b/winter-scene-kids-1-21843359.jpg";
-  const RAINY_URL =
-    "https://www.eurokidsindia.com/blog/wp-content/uploads/2023/08/rainy-season-precautions.jpg";
+  const INITIAL_URL = import.meta.env.VITE_INITIAL_URL;
+  const HOT_URL = import.meta.env.VITE_HOT_URL;
+  const COLD_URL = import.meta.env.VITE_COLD_URL;
+  const RAINY_URL = import.meta.env.VITE_RAINY_URL;
 
   return (
     <div>
